@@ -94,12 +94,12 @@
     shapeLayer.frame = CGRectMake(0, 0, 350, 350);
     shapeLayer.path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, 350, 350)].CGPath;
     shapeLayer.fillColor = [UIColor whiteColor].CGColor;
-    shapeLayer.opacity = 0.0;
+    shapeLayer.opacity = 0.9;
     
     CAAnimationGroup *animationGroup = [CAAnimationGroup animation];
     animationGroup.delegate = self;
     animationGroup.animations = @[[self alphaAnimation],[self scaleAnimation]];
-    animationGroup.duration = 1.0;//动画快慢
+    animationGroup.duration = 0.8;//动画快慢
     animationGroup.autoreverses = NO;
     //animationGroup.repeatCount = HUGE;
     animationGroup.repeatCount = 2;//动画只展示1次
@@ -108,7 +108,7 @@
     CAReplicatorLayer *replicatorLayer = [CAReplicatorLayer layer];
     //replicatorLayer.frame = CGRectMake(-50, -78.1, 80, 80);//调整中心点
     replicatorLayer.frame = CGRectMake(0, -75, 150, 200);//调整中心点
-    replicatorLayer.instanceDelay = 0.01;                //向外扩散的速度
+    replicatorLayer.instanceDelay = 0.001;                //向外扩散的速度
     replicatorLayer.instanceCount = 1;                  //hubo有多少层
     //    replicatorLayer.instanceAlphaOffset = 1.f;//hubo
     [replicatorLayer addSublayer:shapeLayer];
@@ -117,14 +117,14 @@
 
 - (CABasicAnimation *)alphaAnimation {
     CABasicAnimation *alpha = [CABasicAnimation animationWithKeyPath:@"opacity"];
-    alpha.fromValue = @(0.7);
-    alpha.toValue = @(0.01);
+    alpha.fromValue = @(1.);
+    alpha.toValue = @(0.1);
     return alpha;
 }
 
 - (CABasicAnimation *)scaleAnimation {
     CABasicAnimation *scale = [CABasicAnimation animationWithKeyPath:@"transform"];
-    scale.fromValue = [NSValue valueWithCATransform3D:CATransform3DScale(CATransform3DIdentity, 0.2, 0.2, 0.2)];
+    scale.fromValue = [NSValue valueWithCATransform3D:CATransform3DScale(CATransform3DIdentity, 0.3, 0.3, 0.3)];
     scale.toValue = [NSValue valueWithCATransform3D:CATransform3DScale(CATransform3DIdentity, 1.0, 1.0, 1.0)];
     return scale;
 }
