@@ -24,8 +24,8 @@
     // Drawing code
     CGFloat viewWidth = rect.size.width;
     CGFloat viewHieght = rect.size.height;
-    double Y = pow((double)(viewWidth), (double)2);
-    double X = pow((double)(viewHieght/2), (double)2);
+//    double Y = pow((double)(viewWidth), (double)2);
+//    double X = pow((double)(viewHieght/2), (double)2);
     //double Z =  sqrt(X + Y);//
     
     //获取绘图上下文
