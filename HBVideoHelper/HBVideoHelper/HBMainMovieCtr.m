@@ -110,7 +110,7 @@
     replicatorLayer.frame = CGRectMake(0, -75, 150, 200);//调整中心点
     replicatorLayer.instanceDelay = 1;                //向外扩散的速度
     replicatorLayer.instanceCount = 2;                  //hubo有多少层
-        replicatorLayer.instanceAlphaOffset = 1.f;//hubo
+    replicatorLayer.instanceAlphaOffset = 1.f;//hubo
     [replicatorLayer addSublayer:shapeLayer];
     return replicatorLayer;
 }

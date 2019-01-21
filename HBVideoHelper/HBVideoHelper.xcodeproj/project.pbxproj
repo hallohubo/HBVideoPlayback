@@ -18,6 +18,8 @@
 		C83B36B721F5767B00D98396 /* HBTouchMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C83B36B321F5767A00D98396 /* HBTouchMenuView.m */; };
 		C83B36B821F5767B00D98396 /* HBMainMovieCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = C83B36B621F5767B00D98396 /* HBMainMovieCtr.m */; };
 		C83B36B921F5773B00D98396 /* HBMainMovieCtr.xib in Resources */ = {isa = PBXBuildFile; fileRef = C83B36B521F5767B00D98396 /* HBMainMovieCtr.xib */; };
+		C87F7AA021F5BEEE009B08E3 /* HBTestLayCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = C87F7A9F21F5BEEE009B08E3 /* HBTestLayCtr.m */; };
+		C87F7AA321F5D064009B08E3 /* HBRadarToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = C87F7AA221F5D064009B08E3 /* HBRadarToolView.m */; };
 		F049851A335406B04706244C /* libPods-HBVideoHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27848B27CF0A2FB38BD1FC68 /* libPods-HBVideoHelper.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +63,10 @@
 		C83B36B421F5767B00D98396 /* HBTouchMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBTouchMenuView.h; sourceTree = "<group>"; };
 		C83B36B521F5767B00D98396 /* HBMainMovieCtr.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBMainMovieCtr.xib; sourceTree = "<group>"; };
 		C83B36B621F5767B00D98396 /* HBMainMovieCtr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBMainMovieCtr.m; sourceTree = "<group>"; };
+		C87F7A9E21F5BEEE009B08E3 /* HBTestLayCtr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBTestLayCtr.h; sourceTree = "<group>"; };
+		C87F7A9F21F5BEEE009B08E3 /* HBTestLayCtr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBTestLayCtr.m; sourceTree = "<group>"; };
+		C87F7AA121F5D064009B08E3 /* HBRadarToolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBRadarToolView.h; sourceTree = "<group>"; };
+		C87F7AA221F5D064009B08E3 /* HBRadarToolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBRadarToolView.m; sourceTree = "<group>"; };
 		E04AB182CEC61B0D15A10030 /* Pods-HBVideoHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBVideoHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBVideoHelper/Pods-HBVideoHelper.release.xcconfig"; sourceTree = "<group>"; };
 		F16D475A8A14077890ECF682 /* Pods-HBVideoHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBVideoHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBVideoHelper/Pods-HBVideoHelper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,6 +153,10 @@
 				C83B368B21F5750800D98396 /* LaunchScreen.storyboard */,
 				C83B368E21F5750800D98396 /* Info.plist */,
 				C83B368F21F5750800D98396 /* main.m */,
+				C87F7A9E21F5BEEE009B08E3 /* HBTestLayCtr.h */,
+				C87F7A9F21F5BEEE009B08E3 /* HBTestLayCtr.m */,
+				C87F7AA121F5D064009B08E3 /* HBRadarToolView.h */,
+				C87F7AA221F5D064009B08E3 /* HBRadarToolView.m */,
 			);
 			path = HBVideoHelper;
 			sourceTree = "<group>";
@@ -330,6 +340,8 @@
 				C83B36B821F5767B00D98396 /* HBMainMovieCtr.m in Sources */,
 				C83B36B721F5767B00D98396 /* HBTouchMenuView.m in Sources */,
 				C83B369021F5750800D98396 /* main.m in Sources */,
+				C87F7AA321F5D064009B08E3 /* HBRadarToolView.m in Sources */,
+				C87F7AA021F5BEEE009B08E3 /* HBTestLayCtr.m in Sources */,
 				C83B368221F5750700D98396 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
